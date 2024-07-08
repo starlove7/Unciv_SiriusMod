@@ -1,5 +1,5 @@
-# Unciv-mod-example
+# Unciv_SiriusMod
 
-An example mod for Unciv, that adds one new Civilization.
+This mod is test to edited Unciv version
 
-For information on how to build and use mods, please refer to [the setup instructions](https://yairm210.github.io/Unciv/Modders/Making-a-new-Civilization/)
+Add new building property : isPlayerOnly
