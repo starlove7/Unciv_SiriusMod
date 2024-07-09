@@ -130,7 +130,7 @@
 		"isPlayerOnly": true
 	},
 	{
-		"name": "Fortress",
+		"name": "Special Fortress",
 		"cost": 50,
 		"maintenance": 1,
 		"cityStrength": 30,
