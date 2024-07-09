@@ -119,17 +119,6 @@
 		"isPlayerOnly": true
 	},
 	{
-		"name": "Fortress",
-		"cost": 50,
-		"maintenance": 1,
-		"cityStrength": 30,
-		"cityHealth": 100,
-		"requiredTech": "Masonry",
-		"uniques": ["[+1 Gold] per [1] population [in this city]"],
-		"percentStatBonus": {"gold": 50},
-		"isPlayerOnly": true
-	},
-	{
 		"name": "Special Fortress",
 		"cost": 50,
 		"maintenance": 1,
