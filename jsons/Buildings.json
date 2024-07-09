@@ -1,22 +1,121 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Hunter Office",
+		"cost": 90,
+		"maintenance": 1,
+		"requiredTech": "Agriculture",
+		"uniques": ["[+1 Food] per [2] population [in this city]",
+			"[+1 Food] from [Water] tiles [in this city]",
+			"[+1 Food] from [Land] tiles [in this city]"
+		],
+		"isPlayerOnly": true
 	},
 	{
-		"name": "Breeders",
-		"cost": 30,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
+		"name": "Food Industry Agency",
+		"cost": 270,
+		"maintenance": 1,
+		"requiredTech": "Civil Service",
+		"uniques": ["[+1 Food] per [1] population [in this city]"],
+		"percentStatBonus": {"food": 50},
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Auction House",
+		"cost": 90,
+		"maintenance": 1,
+		"requiredTech": "Currency",
+		"uniques": ["[+1 Gold] per [2] population [in this city]",
+			"[+1 Gold] from [Water] tiles [in this city]",
+			"[+1 Gold] from [Land] tiles [in this city]"
+		],
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Management Agency",
+		"cost": 270,
+		"maintenance": 1,
+		"requiredTech": "Economics",
+		"uniques": ["[+1 Gold] per [1] population [in this city]"],
+		"percentStatBonus": {"gold": 50},
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Training Center",
+		"cost": 120,
+		"maintenance": 1,
+		"requiredTech": "Bronze Working",
+		"uniques": ["New [Military] units start with [45] Experience [in this city]"],
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Secret Military Academy",
+		"cost": 360,
+		"maintenance": 1,
+		"requiredTech": "Military Science",
+		"uniques": ["New [Military] units start with [90] Experience [in this city]"],
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Labor Office",
+		"cost": 120,
+		"maintenance": 1,
+		"requiredTech": "Mining",
+		"uniques": ["[+1 Production] per [2] population [in this city]",
+			"[+1 Production] from [Water] tiles [in this city]",
+			"[+1 Production] from [Land] tiles [in this city]"
+		],
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Future Power Plants",
+		"cost": 360,
+		"maintenance": 1,
+		"requiredTech": "Engineering",
+		"uniques": ["[+1 Production] per [1] population [in this city]"],
+		"percentStatBonus": {"production": 50},
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Ancient Laboratory",
+		"cost": 120,
+		"maintenance": 1,
+		"requiredTech": "Writing",
+		"uniques": ["[+1 Science] per [2] population [in this city]",
+			"[+1 Science] from [Water] tiles [in this city]",
+			"[+1 Science] from [Land] tiles [in this city]"
+		],
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Mystic Laboratory",
+		"cost": 360,
+		"maintenance": 1,
+		"requiredTech": "Astronomy",
+		"uniques": ["[+1 Science] per [1] population [in this city]"],
+		"percentStatBonus": {"science": 50},
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Resort",
+		"cost": 150,
+		"happiness": 5,
+		"maintenance": 1,
+		"requiredTech": "Drama and Poetry",
+		"uniques": ["[+1 Culture] per [2] population [in this city]",
+			"[+1 Culture] from [Water] tiles [in this city]",
+			"[+1 Culture] from [Land] tiles [in this city]"
+		],
+		"isPlayerOnly": true
+	},
+	{
+		"name": "Cultural Office",
+		"cost": 450,
+		"maintenance": 1,
+		"requiredTech": "Radio",
+		"uniques": ["[+1 Culture] per [1] population [in this city]",
+			"[+1 Happiness] per [2] population [in this city]"
+		],
+		"percentStatBonus": {"science": 50},
 		"isPlayerOnly": true
 	}
 ]
