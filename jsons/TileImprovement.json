@@ -3,6 +3,7 @@
         "name": "Sirius Outpost",
         "terrainsCanBeBuiltOn": ["Land"],
         "turnsToBuild": 1,
+        "techRequired": "Masonry",
         "uniques": [
             "Gives a defensive bonus of [200]%",
             "Adjacent enemy units ending their turn take [50] damage",
