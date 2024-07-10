@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Sirius Outpost",
+        "terrainsCanBeBuiltOn": ["Land"],
+        "turnsToBuild": 1,
+        "uniques": [
+            "Gives a defensive bonus of [200]%",
+            "Adjacent enemy units ending their turn take [50] damage",
+            "Can be built just outside your borders",
+            "Constructing it will take over the tiles around it and assign them to your closest city",
+            "Removes removable features when built",
+            "Will not be replaced by automated units"
+        ],
+        "isPlayerOnly": true
+    }
+]
