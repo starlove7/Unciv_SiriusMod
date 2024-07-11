@@ -31,7 +31,7 @@
 		"isPlayerOnly": true
 	},
 	{
-		"name": "Management Agency",
+		"name": "Financial Management Agency",
 		"cost": 300,
 		"maintenance": 1,
 		"requiredTech": "Economics",
