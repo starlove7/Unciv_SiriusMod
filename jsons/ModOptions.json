@@ -3,6 +3,7 @@
 	"author": "starlove7",
 	"constants": {
 		"maxXPfromBarbarians": 99999,
-		"minimalCityDistance": 4
+		"minimalCityDistance": 4,
+		"maxCivilizationWorker": 3
 	}
 }

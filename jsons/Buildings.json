@@ -46,8 +46,8 @@
 		"requiredTech": "Bronze Working",
 		"uniques": ["New [Military] units start with [45] Experience [in this city]",
 			"All newly-trained [non-[Civilian]] units [in this city] receive the [Learner] promotion",
-			"[100]% XP gained from combat",
-			"[+1] Range <for [Ranged] units>"
+			"All newly-trained [Ranged] units [in this city] receive the [Increased Range] promotion",
+			"[100]% XP gained from combat"
 		],
 		"isPlayerOnly": true
 	},

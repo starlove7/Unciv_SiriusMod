@@ -2,5 +2,9 @@
     {
         "name": "Learner",
         "uniques": ["[+10]% Strength after if it kills a unit"]
+    },
+    {
+        "name": "Increased Range",
+        "uniques": ["[+1] Range"]
     }
 ]
