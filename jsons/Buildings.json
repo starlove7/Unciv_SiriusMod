@@ -46,7 +46,8 @@
 		"requiredTech": "Bronze Working",
 		"uniques": ["New [Military] units start with [45] Experience [in this city]",
 			"All newly-trained [non-[Civilian]] units [in this city] receive the [Learner] promotion",
-			"[100]% XP gained from combat"
+			"[100]% XP gained from combat",
+			"[+1] Range <for [{Range}] units>"
 		],
 		"isPlayerOnly": true
 	},
@@ -55,7 +56,10 @@
 		"cost": 600,
 		"maintenance": 1,
 		"requiredTech": "Military Science",
-		"uniques": ["New [Military] units start with [90] Experience [in this city]"],
+		"uniques": ["New [Military] units start with [90] Experience [in this city]",
+			"[1] additional attacks per turn <for [{Military}] units>",
+			"[+1] Movement <for [{Military}] units>"
+		],
 		"isPlayerOnly": true
 	},
 	{

@@ -10,3 +10,10 @@ TileSets/5Hex/Tiles/Sirius Outpost
   orig: 64, 64
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Sirius Outpost
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
